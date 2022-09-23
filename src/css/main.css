@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.generate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    padding: 10px 20px;
+    margin: 10px;
+
+}
+
+.generate label,input{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+
+label{
+  display: inline-block;
+  width: 110px;
+  text-align: right;
+}
+
+input{
+  
+
+  /* Uniform text field size */
+  width: 150px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #ccc;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+
+button {
+  width: 100px;
+  background-color: rgb(0, 0, 0);
+  padding: 10px 10px;
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+}
+
+
+.floors-group {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .floor {
+    height: 8rem;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-bottom: 1px solid black;
+  }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Lift Simulation</title>
+</head>
+<body>
+    <div class="container-main">
+        <h1>Lift Simulation</h1>
+        <div class="generate">
+            <div >
+            <label for="floors">No of Floors:</label>
+            <input type="number" min="1" max="20" class="floor-input">
+            </div>
+    
+            <div >
+            <label for="lifts">No of Lifts:</label>
+            <input type="number" min="1" max="10" class="lift-input">
+            </div>
+
+            <button type="submit" onclick="floorGenerator();return false;">generate</button>
+        </div>
+        <div class="create-item">
+            
+        </div>
+    </div>
+ 
+    <script src="./js/main.js"></script>
+</body>
+</html>
